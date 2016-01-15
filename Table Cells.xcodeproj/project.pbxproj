@@ -14,6 +14,7 @@
 		B141C2671C48CA0D00CA262F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B141C2651C48CA0D00CA262F /* LaunchScreen.storyboard */; };
 		B141C2721C48CA0D00CA262F /* Table_CellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B141C2711C48CA0D00CA262F /* Table_CellsTests.swift */; };
 		B141C27D1C48CA0D00CA262F /* Table_CellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B141C27C1C48CA0D00CA262F /* Table_CellsUITests.swift */; };
+		B141C28D1C48CD5400CA262F /* NameAndColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B141C28C1C48CD5400CA262F /* NameAndColorCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B141C2781C48CA0D00CA262F /* Table CellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table CellsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B141C27C1C48CA0D00CA262F /* Table_CellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_CellsUITests.swift; sourceTree = "<group>"; };
 		B141C27E1C48CA0D00CA262F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B141C28C1C48CD5400CA262F /* NameAndColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B141C2631C48CA0D00CA262F /* Assets.xcassets */,
 				B141C2651C48CA0D00CA262F /* LaunchScreen.storyboard */,
 				B141C2681C48CA0D00CA262F /* Info.plist */,
+				B141C28C1C48CD5400CA262F /* NameAndColorCell.swift */,
 			);
 			path = "Table Cells";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B141C28D1C48CD5400CA262F /* NameAndColorCell.swift in Sources */,
 				B141C25F1C48CA0D00CA262F /* ViewController.swift in Sources */,
 				B141C25D1C48CA0D00CA262F /* AppDelegate.swift in Sources */,
 			);
