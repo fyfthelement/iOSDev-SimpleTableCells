@@ -15,6 +15,7 @@
 		B141C2721C48CA0D00CA262F /* Table_CellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B141C2711C48CA0D00CA262F /* Table_CellsTests.swift */; };
 		B141C27D1C48CA0D00CA262F /* Table_CellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B141C27C1C48CA0D00CA262F /* Table_CellsUITests.swift */; };
 		B141C28D1C48CD5400CA262F /* NameAndColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B141C28C1C48CD5400CA262F /* NameAndColorCell.swift */; };
+		B141C28F1C4924D800CA262F /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B141C28E1C4924D800CA262F /* NameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B141C27C1C48CA0D00CA262F /* Table_CellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_CellsUITests.swift; sourceTree = "<group>"; };
 		B141C27E1C48CA0D00CA262F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B141C28C1C48CD5400CA262F /* NameAndColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorCell.swift; sourceTree = "<group>"; };
+		B141C28E1C4924D800CA262F /* NameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B141C2651C48CA0D00CA262F /* LaunchScreen.storyboard */,
 				B141C2681C48CA0D00CA262F /* Info.plist */,
 				B141C28C1C48CD5400CA262F /* NameAndColorCell.swift */,
+				B141C28E1C4924D800CA262F /* NameAndColorCell.xib */,
 			);
 			path = "Table Cells";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B141C28F1C4924D800CA262F /* NameAndColorCell.xib in Resources */,
 				B141C2671C48CA0D00CA262F /* LaunchScreen.storyboard in Resources */,
 				B141C2641C48CA0D00CA262F /* Assets.xcassets in Resources */,
 				B141C2621C48CA0D00CA262F /* Main.storyboard in Resources */,

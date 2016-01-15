@@ -28,6 +28,13 @@ class ViewController: UIViewController, UITableViewDataSource {
         tableView.registerClass(NameAndColorCell.self,
             forCellReuseIdentifier: cellTableIdentifier)
         
+        let nib = UINib(nibName: "NameAndColorCell", bundle: nil)
+        
+        tableView.registerNib(nib,
+            forCellReuseIdentifier: cellTableIdentifier)
+        
+        tableView.rowHeight = 65
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
